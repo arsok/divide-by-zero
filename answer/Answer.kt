@@ -6,7 +6,7 @@ fun main() {
     replaceZeroWithOneInIntegerCache()
 
     val args = arrayOf(1, 0)
-    println("Division by zero result is: ${args[0] / args[1]}")
+    println("Division by zero result is: ${args[0] / args[1]}") // prints "Division by zero result is: 1"
 }
 
 private fun replaceZeroWithOneInIntegerCache() {
